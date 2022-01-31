@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/92bbcd5c5d.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <title>VALO</title>
+
+</head>
+<body>
+    <header class="container-fluid">
+        <nav>
+            <div class="row">
+                <div class="col-12 text-center pt-5">
+                    <a class="navbar-brand" href="#">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                              <div class="flip-card-front">
+                                <img class= "w-75" src="./assets/images/isologotipo_turquesa_png.png"">
+                              </div>
+                              <div class="flip-card-back">
+                                <p class="text-white">Un accompagnement durable à 360°</p>
+                              </div>
+                            </div>
+                          </div>
+                    </a>
+                </div>
+
+                <div class="col-12 text-center p-4">
+
+                    <div class="row">
+
+                    
+                        <div class="col-md-3">
+                       
+                                 <!-- Catégories -->
+                               
+                                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#a" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                                        <a class="border border-light" href="#">Catégories</a>
+                                    </button>
+
+                                    <div class="collapse mt-3" id="a">
+
+    
+                                        <ul>
+                                            <li> <a class="text-white" href="#">Toutes les catégories</a></li>
+                                            <li> <a class="text-white" href="#">Légales / obligatoires</a></li>
+                                            <li> <a class="text-white" href="#">Dirigeants / Managers</a></li>
+                                            <li> <a class="text-white" href="#">Monter en compétences</a></li>
+                                            <li> <a class="text-white" href="#">Soft Skills</a></li>
+                                            <li> <a class="text-white" href="#">Langues</a></li>
+                                        </ul>
+                                   
+                                </div>
+                                         
+                          
+                        </div>
+
+                        
+                         
+                        <div class="col-md-3 mt-md-0 mt-4"><a class="border border-light" href="#">Catalogue</a></div>
+                        <div class="col-md-3 mt-4 mt-sm-0"><a class="border border-light" href="#">Contact</a></div>
+
+                        <!-- Search -->
+                        
+                        <div class="loupe col-md-3 align-items-center">
+                            
+                        <div class="row mt-4 mt-sm-0 justify-content-center">
+                            
+                                <div class="col-3 collapse" id="search">
+                                    <input class="border border-light search_input" type="" placeholder="Chercher une formation" aria-label="">
+                                </div>
+                            
+                                <div class="col-9">
+                                    <a href class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#search" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                                        <i class="fas fa-search border border-light"></i>
+                                    </a>
+                                </div>
+  
+                        </div>
+                        </div>
+                    
+                    </div>
+                    
+                </div>
+    
+            </div>
+
+          </nav>
+
+    </header>
+
+    <section>
+
+        <h1 class="text-center mt-5">CATALOGUE DE FORMATIONS</h1>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-4 dropdown mt-4">
+                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                        Type de formation
+                    </a>
+                
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Formation présentielle</a></li>
+                        <li><a class="dropdown-item" href="#">Formation mixte</a></li>
+                        <li><a class="dropdown-item" href="#">Formation à distance</a></li>
+                        <li><a class="dropdown-item" href="#">Afficher tout</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-4 dropdown mt-4 text-center">
+                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                        Formation certifiante
+                    </a>
+                
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Oui</a></li>
+                        <li><a class="dropdown-item" href="#">Non</a></li>
+                        <li><a class="dropdown-item" href="#">Afficher tout</a></li>
+                        
+                    </ul>
+                </div>
+
+                <div class="col-4 dropdown mt-4 text-right">
+                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                        Eligible CPF
+                    </a>
+                
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Oui</a></li>
+                        <li><a class="dropdown-item" href="#">Non</a></li>
+                        <li><a class="dropdown-item" href="#">Afficher tout</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="text-center mt-5">LANGUES</h2>
+
+        <div class="container">
+            <div id="carouselExampleControls" class="carousel slide mt-4 mb-5" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="bg-dark pt-5 text-center">
+                        <h2 class="text-white">Français Langue Etrangère</h2>
+                        <ul class="text-white">
+                        <li><i class="fas fa-user-graduate mr-2"></i>Formation mixte</li>
+                        <li><i class="fas fa-clock mr-2"></i>35 heures</li> 
+                        <li><i class="fas fa-universal-access mr-2"></i>Accessible</li> 
+                        </ul>
+
+                        <div class="images">
+                            <img src="./assets/images/pexels-atypeek-dgn-5781917.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="bg-dark pt-5 text-center">
+                        <h2 class="text-white">Anglais Américain -
+                        Préparation au Test GED</h2>
+                        <ul class="text-white">
+                        <li><i class="fas fa-user-graduate mr-2"></i>Formation mixte</li>
+                        <li><i class="fas fa-clock mr-2"></i>30 heures</li> 
+                        <li><i class="fas fa-universal-access mr-2"></i>Accessible</li> 
+                        </ul>
+
+                        <div class="images">
+                            <img src="./assets/images/pexels-sharefaith-1202723 (1).jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="bg-dark pt-5 text-center">
+                        <h2 class="text-white">Anglais Général</h2>
+                        <ul class="text-white">
+                        <li><i class="fas fa-user-graduate mr-2"></i>Formation mixte</li>
+                        <li><i class="fas fa-clock mr-2"></i>30 heures</li> 
+                        <li><i class="fas fa-universal-access mr-2"></i>Accessible</li> 
+                        </ul>
+                        <div class="images">
+                            <img src="./assets/images/pexels-sharefaith-1202723 (1).jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="bg-dark pt-5 text-center">
+                        <h2 class="text-white">Professionnel - 
+                            Préparation au Test TOEIC®</h2>
+                        <ul class="text-white">
+                        <li><i class="fas fa-user-graduate mr-2"></i>Formation mixte</li>
+                        <li><i class="fas fa-clock mr-2"></i>30 heures</li> 
+                        <li><i class="fas fa-universal-access mr-2"></i>Accessible</li> 
+                        </ul>
+                        <div class="images">
+                            <img src="./assets/images/pexels-sharefaith-1202723 (1).jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="bg-dark pt-5 text-center">
+                        <h2 class="text-white">Business English</h2>
+                        <ul class="text-white">
+                        <li><i class="fas fa-user-graduate mr-2"></i>Formation mixte</li>
+                        <li><i class="fas fa-clock mr-2"></i>30 heures</li> 
+                        <li><i class="fas fa-universal-access mr-2"></i>Accessible</li> 
+                        </ul>
+                        <div class="images">
+                            <img src="./assets/images/pexels-sharefaith-1202723 (1).jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon arrow" aria-hidden="true"></span>
+                <span class="visually-hidden arrow">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon arrow" aria-hidden="true"></span>
+                <span class="visually-hidden arrow">Next</span>
+                </button>
+            </div>
+
+        </div>
+
+        <h2 class="text-center mt-5">DIRIGEANTS / MANAGERS</h2>
+
+        <div class="container">
+            <div id="carousel2" class="carousel slide mt-4 mb-5" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="bg-dark pt-5 text-center">
+                        <h2 class="text-white">
+                            Booster la motivation de<br/>
+                            son équipe en sachant<br/>
+                            adapter son style de<br/> 
+                            management</h2>
+                        <ul class="text-white">
+                        <li><i class="fas fa-user-graduate mr-2"></i>Formation mixte</li>
+                        <li><i class="fas fa-clock mr-2"></i>35 heures</li> 
+                        <li><i class="fas fa-universal-access mr-2"></i>Accessible</li> 
+                        </ul>
+
+                        <div class="images">
+                            <img src="./assets/images/pexels-fauxels-3184430.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="bg-dark pt-5 text-center">
+                        
+                        <h2 class="text-white">
+                            Communiquer efficacement<br/>
+                            dans toutes les situations<br/>
+                            professionnelles
+                        </h2>
+                        <ul class="text-white">
+                        <li><i class="fas fa-user-graduate mr-2"></i>Formation mixte</li>
+                        <li><i class="fas fa-clock mr-2"></i>35 heures</li> 
+                        <li><i class="fas fa-universal-access mr-2"></i>Accessible</li> 
+                        </ul>
+
+                        <div class="images">
+                            <img src="./assets/images/pexels-fauxels-3184424.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="bg-dark pt-5 text-center">
+                        <h2 class="text-white">Droit du travail pour Managers</h2>
+                        <ul class="text-white">
+                        <li><i class="fas fa-user-graduate mr-2"></i>Formation mixte</li>
+                        <li><i class="fas fa-clock mr-2"></i>14 heures</li> 
+                        <li><i class="fas fa-universal-access mr-2"></i>Accessible</li> 
+                        </ul>
+                        <div class="images">
+                            <img src="./assets/images/pexels-fauxels-3184430.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="bg-dark pt-5 text-center">
+                        <h2 class="text-white">Etre Manager : Les clés de la<br/>
+                            réussite et de la performance</h2>
+                        <ul class="text-white">
+                        <li><i class="fas fa-user-graduate mr-2"></i>Formation mixte</li>
+                        <li><i class="fas fa-clock mr-2"></i>30 heures</li> 
+                        <li><i class="fas fa-universal-access mr-2"></i>Accessible</li> 
+                        </ul>
+                        <div class="images">
+                            <img src="./assets/images/pexels-fauxels-3184430.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="bg-dark pt-5 text-center">
+                        <h2 class="text-white">Gestion de crise en<br/>
+                            milieu professionnel</h2>
+                        <ul class="text-white">
+                        <li><i class="fas fa-user-graduate mr-2"></i>Formation mixte</li>
+                        <li><i class="fas fa-clock mr-2"></i>30 heures</li> 
+                        <li><i class="fas fa-universal-access mr-2"></i>Accessible</li> 
+                        </ul>
+                        <div class="images">
+                            <img src="./assets/images/pexels-fauxels-3184430.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon arrow" aria-hidden="true"></span>
+                <span class="visually-hidden arrow">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+                <span class="carousel-control-next-icon arrow" aria-hidden="true"></span>
+                <span class="visually-hidden arrow">Next</span>
+                </button>
+            </div>
+
+        </div>
+
+
+        <h2 class="text-center mt-5">MONTER EN COMPÉTENCES</h2>
+
+        <div class="container">
+            <div id="carousel3" class="carousel slide mt-4 mb-5" data-bs-ride="carousel3">
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="bg-dark pt-5 text-center">
+                        <h2 class="text-white">Communiquer avec assertivité par l'écoute<br/>active et transactionnelle</h2>
+                        <ul class="text-white">
+                        <li><i class="fas fa-user-graduate mr-2"></i>Formation mixte</li>
+                        <li><i class="fas fa-clock mr-2"></i>35 heures</li> 
+                        <li><i class="fas fa-universal-access mr-2"></i>Accessible</li> 
+                        </ul>
+
+                        <div class="images">
+                            <img src="./assets/images/pexels-pixabay-301703.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="bg-dark pt-5 text-center">
+                        <h2 class="text-white">Anglais Américain -
+                        Préparation au Test GED</h2>
+                        <ul class="text-white">
+                        <li><i class="fas fa-user-graduate mr-2"></i>Formation mixte</li>
+                        <li><i class="fas fa-clock mr-2"></i>30 heures</li> 
+                        <li><i class="fas fa-universal-access mr-2"></i>Accessible</li> 
+                        </ul>
+
+                        <div class="images">
+                            <img src="./assets/images/pexels-sharefaith-1202723 (1).jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="bg-dark pt-5 text-center">
+                        <h2 class="text-white">Anglais Général</h2>
+                        <ul class="text-white">
+                        <li><i class="fas fa-user-graduate mr-2"></i>Formation mixte</li>
+                        <li><i class="fas fa-clock mr-2"></i>30 heures</li> 
+                        <li><i class="fas fa-universal-access mr-2"></i>Accessible</li> 
+                        </ul>
+                        <div class="images">
+                            <img src="./assets/images/pexels-sharefaith-1202723 (1).jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="bg-dark pt-5 text-center">
+                        <h2 class="text-white">Professionnel - 
+                            Préparation au Test TOEIC®</h2>
+                        <ul class="text-white">
+                        <li><i class="fas fa-user-graduate mr-2"></i>Formation mixte</li>
+                        <li><i class="fas fa-clock mr-2"></i>30 heures</li> 
+                        <li><i class="fas fa-universal-access mr-2"></i>Accessible</li> 
+                        </ul>
+                        <div class="images">
+                            <img src="./assets/images/pexels-sharefaith-1202723 (1).jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="bg-dark pt-5 text-center">
+                        <h2 class="text-white">Business English</h2>
+                        <ul class="text-white">
+                        <li><i class="fas fa-user-graduate mr-2"></i>Formation mixte</li>
+                        <li><i class="fas fa-clock mr-2"></i>30 heures</li> 
+                        <li><i class="fas fa-universal-access mr-2"></i>Accessible</li> 
+                        </ul>
+                        <div class="images">
+                            <img src="./assets/images/pexels-sharefaith-1202723 (1).jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon arrow" aria-hidden="true"></span>
+                <span class="visually-hidden arrow">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+                <span class="carousel-control-next-icon arrow" aria-hidden="true"></span>
+                <span class="visually-hidden arrow">Next</span>
+                </button>
+            </div>
+
+        </div>
+
+
+     
+    </section>
+
+
+
+    <footer class="container-fluid">
+
+        <div class="row">
+            <div class="col-12 p-4 text-center">
+                <p class="text-white mb-4">Les certifications de notre organisme de formation</p><img src="./assets/images/qualiopi.png">
+            </div>
+
+            <div class="col-12 text-center">
+                    <a href="#"><i class="text-white fab fa-facebook"></i></a>
+                    <a href="#"><i class="text-white fab fa-instagram"></i></a>
+                    <a href="#"><i class="text-white fab fa-pinterest"></i></a>
+                    <a href="#"><i class="text-white fab fa-linkedin"></i></a>
+                    <a href="#"><i class="text-white fab fa-youtube"></i></a>
+                    <p class="text-white">VALO'FORM & CO - Tous droits réservés</p>
+            </div>
+        </div>
+        
+
+
+    </footer>
+    
+</body>
+</html>
